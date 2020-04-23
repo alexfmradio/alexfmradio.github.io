@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1,AlexFM Radiostation
+https://myradio24.org/2411
+#EXTINF:-1,AlexFM Radiostation (Laut.FM)
+http://stream.laut.fm/alexfm
+#EXTINF:-1,AlexFM Radiostation (Live)
+http://s0.radioheart.ru:8000/alexfm
+#EXTINF:-1,AlexFM Radiostation (Live lq)
+http://s0.radioheart.ru:8000/alexfm-lq
+#EXTINF:-1,AlexFM Radiostation (Stream)
+http://afmservers.ddns.net:8000/alexfm
+#EXTINF:-1,AlexFM Radio (128kb)
+http://stream.zeno.fm/px4ac8xh5qruv
+#EXTINF:-1,AlexFM Radio (48kb)
+http://stream.zeno.fm/gm45412t7eeuv
+#EXTINF:-1,AlexFM Radio (32kb)
+http://stream.zeno.fm/y5svm86t7eeuv
+#EXTINF:-1,AlexFM LetsRock (128kb)
+http://stream.zeno.fm/vustg4kbmbruv
+#EXTINF:-1,AlexFM LetsRock (48kb)
+http://stream.zeno.fm/uauq3y7t7eeuv
+#EXTINF:-1,AlexFM LetsRock (32kb)
+http://stream.zeno.fm/wsbyzd8t7eeuv
