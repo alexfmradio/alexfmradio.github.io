@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 User-agent: Yandex
 User-agent: Googlebot
 Host: https://alexfmradio.tk
@@ -11,6 +11,7 @@ Allow: /about.html
 Allow: /schedule.html
 Allow: /chat.html
 Allow: /pcradio.html
+Allow: /websdr.html
 Allow: /player.html
 Allow: /player2.html
 Allow: /player3.html
