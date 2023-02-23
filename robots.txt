@@ -13,4 +13,3 @@ Allow: /chat.html
 Allow: /pcradio.html
 Allow: /player.html
 Allow: /player2.html
-Allow: /player3.html
