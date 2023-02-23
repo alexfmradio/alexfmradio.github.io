@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01Transitional//EN">
 <html>
 <head>
-<title>UltraPlay - Статистика эфира</title>
-<meta name="keywords" content="internet-radio, internet radio, online radio, rock radio, rock online radio, radio, music, rock music, rock, metal, alternative, ultraplay"/>
-<meta name="description" content="UltraPlay - это независимая интернет-радиостанция, вещающая Рок-музыку. Основные жанры: Альтернативный рок и Метал.">
+<title>AlexFM Radiostation - Статистика эфира</title>
+<meta name="keywords" content="internet-radio, internet radio, online radio, rock radio, rock online radio, radio, music, rock music, rock, metal, alternative, alexfm, alexfm radiostation"/>
+<meta name="description" content="AlexFM Radiostation - это независимая интернет-радиостанция, вещающая Рок-музыку. Музыкальные жанры: Рок, Метал, Альтернатива и многое другое!">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0.5, user-scalable=yes">
 
@@ -62,7 +62,7 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 					</div>
 					<div id="logo"><span class="wsite-logo">
 	<a href="index.html">
-	<span id="wsite-title"><a href="index.html">UltraPlay</a></span>
+	<span id="wsite-title"><a href="index.html">AlexFM Radiostation</a></span>
 	</a>
 </span></div>
 				<div id="search"></div>
@@ -105,7 +105,35 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 			</a>
 			
 		</li>
-		<li id="pg826424685998492519" class="wsite-menu-item-wrap">
+		<li id="pg978293783164625908" class="wsite-menu-item-wrap">
+			<a
+					href="about.html"
+				class="wsite-menu-item"
+				>
+				Наша команда
+			</a>
+			
+		</li>
+		<li id="pg633610282777698464" class="wsite-menu-item-wrap">
+			<a
+					href="schedule.html"
+				class="wsite-menu-item"
+				>
+				Расписание эфира
+			</a>
+			
+		</li>
+
+		<li id="pg991963666383047664" class="wsite-menu-item-wrap">
+			<a
+					href="chat.html"
+				class="wsite-menu-item"
+				>
+				Чат
+			</a>
+			
+		</li>
+			<li id="pg826424685998492519" class="wsite-menu-item-wrap">
 			<a
 					href="pcradio.html"
 				class="wsite-menu-item"
@@ -115,7 +143,6 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 			
 		</li>
 </ul>
-
 </div>
 				</div>
 			</div>
@@ -123,9 +150,9 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 				<div id="main" class="splash-content">
 					<div class="container"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Статистика эфира</font></h2>
+<div></div>
 <br>
 <center>
-
 <div class="my_info" style="visibility:hidden;">
 	<table>
 	<tr><td colspan="2">
@@ -135,10 +162,8 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 	<tr><td>Слушают / Пик:</td><td title='Лимит слушателей: %limit%'><b>%listeners%</b> / %plisteners%</td></tr>
 	</table><br>
 </div>
-
 </center>
 <center><p><b>Основной плейлист</b></p></center>
-
 <center>
 <div class="my_lastsongs" data-revert=1 style="display:inline-block;">
 	<div class="my_lastsonghtml" style="display:none;">
@@ -151,22 +176,22 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 	</div>
 </div>
 </center>
-	
+
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Слушать радио онлайн</font></h2>
 
 <center><p>Основной поток</p></center>
 <center>
-<div id="my_player" class="my_player" data-player="energy" data-skin="blue" data-width=200 data-autoplay=0 data-volume=50 data-streamurl="https://myradio24.org/1124"></div>
-<script src="//myradio24.com/player/player.js?v3.24" data-port="1124" data-interval=15 data-vmid=0></script>
+<div id="my_player" class="my_player" data-player="energy" data-skin="blue" data-width=200 data-autoplay=0 data-volume=50 data-streamurl="https://myradio24.org/2411"></div>
+<script src="//myradio24.com/player/player.js?v3.24" data-port="2411" data-interval=15 data-vmid=0></script>
 </center>
 
 <br></br>
-<center><p>Радио «AlexFM»</p></center>
+<center><p>Поток с Laut.FM</p></center>
 <center>
 <script type="text/javascript" src="files\js\mrp.js"></script>
 <script type="text/javascript">
 MRP.insert({
-'url':'https://listen6.myradio24.com/2411',
+'url':'http://stream.laut.fm/alexfm',
 'lang':'ru',
 'codec':'mp3',
 'volume':50,
@@ -174,7 +199,30 @@ MRP.insert({
 'forceHTML5':true,
 'jsevents':true,
 'buffering':0,
-'title':'Основное радио',
+'title':'AlexFM LetsRock',
+'wmode':'transparent',
+'skin':'mcclean',
+'width':180,
+'height':60
+});
+</script>
+</center>
+
+<br></br>
+<center><p>Радио «UltraPlay»</p></center>
+<center>
+<script type="text/javascript" src="files\js\mrp.js"></script>
+<script type="text/javascript">
+MRP.insert({
+'url':'https://listen6.myradio24.com/1124',
+'lang':'ru',
+'codec':'mp3',
+'volume':50,
+'autoplay':false,
+'forceHTML5':true,
+'jsevents':true,
+'buffering':0,
+'title':'Второе радио',
 'wmode':'transparent',
 'skin':'terawhite',
 'width':255,
@@ -183,43 +231,108 @@ MRP.insert({
 </script>
 </center>
 
+<br></br>
+<center><p>Группа в ВК</p></center>
+<center>
+<a href="https://vk.com/alexfmradio" target="_blank"><img src="images/vk.png"></a>
+</center>
+
+<br></br>
+<center><p>YouTube канал</p></center>
+<center>
+<a href="https://goo.gl/5b69Qe" target="_blank"><img src="images/youtube.jpg"></a>
+</center>
+
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Гео статистика</font></h2>
 
 <center>
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=08ne5c23mqb&amp;m=0&amp;h=179&amp;c=ff0000&amp;r=0" async="async"></script>
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=02foi9v77ld&amp;m=0&amp;h=179&amp;c=ff0000&amp;r=0" async="async"></script>
 </center>
 
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Наши друзья и партнеры</font></h2>
 
 <div><div id="311399358960969833" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
-<a href="https://radiovolna.net/405798-ultraplay.html" title="UltraPlay на Radiovolna" target="_blank"><img src="images/radiovolna.png" width: 88px"></a>
+<a href="http://live.audials.com/en#!radio/alexfm-radiostation-1559916" title="AlexFM на Audials" target="_blank"><img src="images/audials.png"></a>
+<a href="http://the-radio.ru/radio/alexfmstation-r2131" title="AlexFM на TheRadio" target="_blank"><img src="images/the-radio.gif"></a>
 <a onclick="this.href='https://myradio24.com/?r=71488'" href="//myradio24.com" target="_blank" title="Создать радио"><img src="//myradio24.com/img/banner-88.gif" border=0></a>
-<a href="https://alexfmradio.tk" title="Основное радио" target="_blank"><img src="images/radio.png"></a>
+<a href="https://ultraplayradio.tk" title="Второе радио" target="_blank"><img src="images/radio.png"></a>
+<a href="http://top-radio.ru/web/alexfm-radiostation" title="AlexFM на TopRadioRu" target="_blank"><img src="images/top-radio.png"></a>
 <center></center>
-<a href="https://radiopotok.ru/radio/1527" title="UltraPlay на RadioPotok" target="_blank"><img src="images/radiopotok.png"></a>
-<a href="https://topradio.me/ultraplay" title="UltraPlay на TopRadioMe" target="_blank"><img src="images/topradio-me.png"></a>
-<a href="https://www.radiobells.com/rock/ultraplayradio/" title="UltraPlay на RadioBells" target="_blank"><img src="images/radiobells.png" border="0"></a>
+<a href="http://www.radioline.co/listen-to-alexfm-radiostation" title="AlexFM на Radiolne" target="_blank"><img src="images/radioline.png"></a>
+<a href="https://www.raddios.com.ar/12976-shortlink" title="AlexFM на Raddios" target="_blank"><img src="images/raddios.png"></a>
+<a href="http://guzei.com/online_radio/listen.php?online_radio_id=12445" title="AlexFM на Guzei" target="_blank"><img src="images/guzei.gif"></a>
+<a href="https://www.radioforest.net/radio/alexfm-radiostation/663403" title="AlexFM на RadioForest" target="_blank"><img src="images/radioforest.png"></a>
+<a href="https://www.radiobells.com/rock/alexfm/" title="AlexFM на RadioBells" target="_blank"><img src="images/radiobells.png"></a>
 <center></center>
-<a href="http://top-radio.ru/web/radio-ultraplay" title="UltraPlay на TopRadioRu" target="_blank"><img src="images/top-radio.png"></a>
-<a href="http://the-radio.ru/radio/ultraplay-r2801" title="UltraPlay на TheRadio" target="_blank"><img src="images/the-radio.gif" width="88"  height="31"></a>
-<a href="http://nobexradio.com/" title="Nobex Radio" target="_blank"><img src="images/nobex.png" border="0"/></a>
+<a href="https://www.radios.com.br/aovivo/alex-fm-radiostation/47281" title="AlexFM на Radios" target="_blank"><img src="images/radiosnet.jpg"></a>
+<a href="https://liveradio.de/alexfm-radiostation" title="AlexFM на Live Radio" target="_blank"><img src="images/liveradio.png"></a>
+<a href="https://onradios.ru/rok/alexfm-radiostation" title="AlexFM на OnRadios" target="_blank"><img src="images/onradios.png"></a>
 <center></center>
-<a href="https://lixty.com/ru/radio/country-ru/ultraplay-567364" title="UltraPlay на Lixty" target="_blank"><img src="images/lixty.png"></a>
-<a href="https://www.liveradio.ie/stations/ultraplay" title="UltraPlay на LiveRadio" target="_blank"><img src="images/liveradio.png" border="0"></a>
-<a href="http://radiofon.net/949-radio-ultraplay.html" title="UltraPlay на Radiofon" target="_blank"><img src="images/radiofon.png"></a>
+<a href="https://www.radioguide.fm/internet-radio-russia/alexfm-radiostation" title="AlexFM на RadioGuide" target="_blank"><img src="images/radioguide.png"></a></div>
+</div>
+
+<div><div id="249964045623915572" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+<a href="http://live.audials.com/en#!radio/alexfm-radiostation-1559916" title="AlexFM на Audials" target="_blank">Audials</a>
+<a href="https://www.radio.net/s/alexfmradiostation" title="AlexFM на Radio.net" target="_blank">Radio.net</a>
+<a href="https://yotuner.app/ru/" title="AlexFM на Yo!Tuner" target="_blank">Yo!Tuner</a>
+<a href="https://pcradio.ru/radio/alexfm" title="AlexFM на PCRadio" target="_blank">PCRadio</a>
+<a href="http://www.radioline.co/listen-to-alexfm-radiostation" title="AlexFM на Radioline" target="_blank">Radioline</a>
+<a href="https://www.raddios.com/12976-shortlink" title="AlexFM на Raddios" target="_blank">Raddios</a>
+<a href="https://radiomaniya.ru/radio/alex-fm" title="AlexFM на RadioManiya.ru" target="_blank">RadioManiya</a>
+<a href="http://nobexradio.com/" title="AlexFM на Nobex" target="_blank">Nobex</a>
+<a href="http://vtuner.com/setupapp/guide/asp/BrowseStations/Searchform.asp" title="AlexFM на vTuner" target="_blank">vTuner</a>
 <center></center>
-<a href="http://www.radioline.co/listen-to-ultraplay" title="UltraPlay на Radiolne" target="_blank"><img src="images/radioline.png"></a>
-<a href="http://guzei.com/online_radio/listen.php?online_radio_id=19021" title="UltraPlay на Guzei" target="_blank"><img src="images/guzei.gif"></a>
-<a href="https://www.raddios.com/14713-shortlink" title="UltraPlay на Raddios" target="_blank"><img src="images/raddios.png"></a>
+<a href="https://radio-tochka.com/content/catalog#69344/" title="AlexFM на RadioTochka" target="_blank">RadioTochka</a>
+<a href="https://radiomaniya.org/radio/alex-fm" title="AlexFM на RadioManiya.org" target="_blank">RadioManiya</a>
+<a href="https://radiopotok.ru/radio/945" title="AlexFM на RadioPotok" target="_blank">RadioPotok</a>
+<a href="http://radiofon.net/815-alex-fm.html" title="AlexFM на Radiofon" target="_blank">Radiofon</a>
+<a href="https://all-radio.online/radio/alexfm" title="AlexFM на AllRadio" target="_blank">AllRadio</a>
+<a href="http://top-radio.ru/web/alex-fm-letsrock" title="AlexFM LR на TopRadioRu" target="_blank">TopRadioRu</a>
+<a href="https://laradiofm.ru/station-2514/stream-128" title="AlexFM на LaRadioFM" target="_blank">LaRadioFM</a>
+<a href="http://www.liveradio.ie/stations/alexfm-radiostation" title="AlexFM на LiveRadio" target="_blank">LiveRadio</a>
+<center></center>
+<a href="http://live.audials.com/en#!radio/alexfm-1708767" title="AlexFM LR на Audials" target="_blank">Audials</a>
+<a href="https://www.radio.net/s/lautfm-alexfm" title="AlexFM LR на Radio.net" target="_blank">Radio.net</a>
+<a href="http://www.optiradio.com/radio/AlexFM-Radiostation" title="AlexFM на OptiRadio" target="_blank">OptiRadio</a>
+<a href="https://www.cxradio.com.br/radio/alex-fm-radiostation" title="AlexFM на CXRadio" target="_blank">CXRadio</a>
+<a href="https://streema.com/radios/AlexFM_Radiostation" title="AlexFM на Streema" target="_blank">Streema</a>
+<a href="https://topradio.me/alexfm-radiostation" title="AlexFM на TopRadioMe" target="_blank">TopRadioMe</a>
+<a href="https://onlayn-radio.ru/rock/7363-alexfm-radiostation.html" title="AlexFM на OnlaynRadio" target="_blank">OnlaynRadio</a>
+<a href="https://onlineradiobox.ru/station/alexfm-radiostation" title="AlexFM на OnlineRadioBox" target="_blank">OnlineRadioBox</a>
+<center></center>
+<a href="http://www.streamfinder.com/streaming-radio/alexfm-radiostation/49590/" title="AlexFM на StreamFinder" target="_blank">StreamFinder</a>
+<a href="http://www.liveonlineradio.net/russia/alex-fm.htm" title="AlexFM на LiveOnlineRadio" target="_blank">LiveOnlineRadio</a>
+<a href="https://radiovolna.net/400948-alexfm-radiostation.html" title="AlexFM на Radiovolna" target="_blank">Radiovolna</a>
+<a href="https://online-red.ru/genres/rock/alexfmstation" title="AlexFM на OnlineRed" target="_blank">OnlineRed</a>
+<a href="https://radiopleer.net/radio/alexfm" title="AlexFM на RadioPleer" target="_blank">RadioPleer</a>
+<a href="https://radiovolna.net/405736-alexfm-letsrock.html" title="AlexFM LR на Radiovolna" target="_blank">Radiovolna</a>
+<a href="https://www.radio111.ru/moskva/radio-alexfm-radiostation-onlajn-slushat/" title="AlexFM на Radio111" target="_blank">Radio111</a>
+<center></center>
+<a href="https://mytuner-radio.com/radio/alexfm-aleks-fm-426464/" title="AlexFM на MyTuner" target="_blank">myTuner</a>
+<a href="http://www.my-radios.com/ru/radio/Слушать/28969/AlexFM-Radiostation" title="AlexFM на MyRadios" target="_blank">MyRadios</a>
+<a href="http://www.radiodeck.com/radio/58089c2487e3371a85b8976d" title="AlexFM на RadioDeck" target="_blank">RadioDeck</a>
+<a href="http://www.radioshaker.com/radio/alexfm-radiostation" title="AlexFM на RadioShaker" target="_blank">RadioShaker</a>
+<a href="http://www.pickradio.net/alexfm-radiostation" title="AlexFM на PickRadio" target="_blank">PickRadio</a>
+<a href="https://lixty.com/ru/radio/country-ru/alexfm-radiostation-567365" title="AlexFM на Lixty" target="_blank">Lixty</a>
+<a href="https://radiopotok.ru/radio/1528" title="AlexFM LR на RadioPotok" target="_blank">RadioPotok</a>
+<a href="https://ultraplayradio.tk" title="Второе радио" target="_blank">UltraPlay</a>
+<center></center>
+<a href="https://myradio24.com/2411" title="AlexFM на MyRadio24" target="_blank">MyRadio24</a>
+<a href="https://myradio24.com/ru/catalog/rock" title="Каталог радио MyRadio24" target="_blank">Каталог радио</a>
+<a href="http://alexfmradio.myrh.ru" title="AlexFM на RadioHeart" target="_blank">RadioHeart</a>
+<a href="https://laut.fm/alexfm" title="AlexFM на Laut.FM" target="_blank">Laut.FM</a>
+<a href="https://goo.gl/5b69Qe" title="YouTube канал" target="_blank">YouTube</a>
+<a href="https://vk.com/alexfmradio" title="Группа в ВК" target="_blank">VK</a>
+<a href="https://alexfmsite.tk" title="Запасной сайт" target="_blank">Reserve</a>
 </div></div>
 
 <br></br>
 <center><p>Партнеры радиостанции</p></center>
 <center><script>
 var banner = new Array();
-banner[0] = '<a href="https://lead1.pl/p/Ng2x/OHgD/hQEU" target=_blank ><img src="images/gamehag.png" ></a>';
-banner[1] = '<a href="https://lead1.pl/p/Ng2x/m12W/urIY" target=_blank ><img src="images/gifty.png" ></a>';
-banner[2] = '<a href="https://gohere.pl/p/Ng2x/YLna/ptKb" target=_blank ><img src="images/aliexpress.jpg" ></a>';
+banner[0] = '<a href="https://lead1.pl/p/Ng2x/OHgD/EoUU" target=_blank ><img src="images/gamehag.png" ></a>';
+banner[1] = '<a href="https://lead1.pl/p/Ng2x/m12W/I3NJ" target=_blank ><img src="images/gifty.png" ></a>';
+banner[2] = '<a href="https://gohere.pl/p/Ng2x/YLna/YRwN" target=_blank ><img src="images/aliexpress.jpg" ></a>';
 var n = ~~(Math.random()*3);
 document.write(banner[n]);
 </script></center>
@@ -229,39 +342,79 @@ document.write(banner[n]);
 <center><a href="https://www.donationalerts.com/r/alexsong" title="Поддержать" target="_blank"><img src="images/donation.png"></a></center>
 
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Статистика сайта</font></h2>
-<center><!--LiveInternet counter--><script type="text/javascript">
+
+</div>
+
+<div><div id="999608406105899229" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=27110642&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/27110642/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:27110642,lang:'ru'});return false}catch(e){}" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter27110642 = new Ya.Metrika({
+                    id:27110642,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/27110642" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></div>
+
+<center>
+<!--LiveInternet counter--><script type="text/javascript">
 document.write("<a href='//www.liveinternet.ru/click' "+
-"target=_blank><img src='//counter.yadro.ru/hit?t52.6;r"+
+"target=_blank><img src='//counter.yadro.ru/hit?t23.2;r"+
 escape(document.referrer)+((typeof(screen)=="undefined")?"":
 ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
 screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";h"+escape(document.title.substring(0,150))+";"+Math.random()+
-"' alt='' title='LiveInternet: показано число просмотров и"+
-" посетителей за 24 часа' "+
-"border='0' width='88' height='31'><\/a>")
-</script><!--/LiveInternet--></center>
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число посетителей за"+
+" сегодня' "+
+"border='0' width='88' height='15' style='display:none;'><\/a>")
+</script><!--/LiveInternet-->
 
 <!-- Rating@Mail.ru counter -->
 <script type="text/javascript">
 var _tmr = window._tmr || (window._tmr = []);
-_tmr.push({id: "3032273", type: "pageView", start: (new Date()).getTime()});
+_tmr.push({id: "2918839", type: "pageView", start: (new Date()).getTime()});
 (function (d, w, id) {
-  if (d.getElementById(id)) return;
-  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+if (d.getElementById(id)) return;
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
 })(document, window, "topmailru-code");
 </script><noscript><div>
-<img src="//top-fwz1.mail.ru/counter?id=3032273;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+<img src="//top-fwz1.mail.ru/counter?id=2918839;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
 </div></noscript>
 <!-- //Rating@Mail.ru counter -->
+</center>
 
 <div><div style="height: 20px; overflow: hidden; width: 0px;"></div>
 <hr class="styled-hr" style="width:0px;"></hr>
 <div style="height: 20px; overflow: hidden; width: 0px;"></div></div>
 
-<div><center>Интернет-радиостанция «UltraPlay» &copy; 2023</center></div>
+<div><center>Интернет-радиостанция «AlexFM Radiostation» &copy; 2023</center></div>
 
 </div>
 				</div>
@@ -305,7 +458,34 @@ _tmr.push({id: "3032273", type: "pageView", start: (new Date()).getTime()});
 			</a>
 			
 		</li>
-			<li id="pg826424685998492519" class="wsite-menu-item-wrap">
+		<li id="pg978293783164625908" class="wsite-menu-item-wrap">
+			<a
+					href="about.html"
+				class="wsite-menu-item"
+				>
+				Наша команда
+			</a>
+			
+		</li>
+		<li id="pg633610282777698464" class="wsite-menu-item-wrap">
+			<a
+					href="schedule.html"
+				class="wsite-menu-item"
+				>
+				Расписание эфира
+			</a>
+			
+		</li>
+		<li id="pg991963666383047664" class="wsite-menu-item-wrap">
+			<a
+					href="chat.html"
+				class="wsite-menu-item"
+				>
+				Чат
+			</a>
+			
+		</li>
+		<li id="pg826424685998492519" class="wsite-menu-item-wrap">
 			<a
 					href="pcradio.html"
 				class="wsite-menu-item"
