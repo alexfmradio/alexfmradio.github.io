@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01Transitional//EN">
 <html>
 	<head>
-		<title>AlexFM Radiostation - Плеер для AlexFM LR</title>
+		<title>AlexFM Radiostation - Плеер для UltraPlay</title>
 		<meta name="description" content="Плеер для UltraPlay">
 		<meta name="viewport" content="width=960">
 		<body background="images/bg.jpg">
@@ -12,66 +12,30 @@
     </style>
 
 <center>
-<script type="text/javascript" src="files\js\mrp.js"></script>
-<script type="text/javascript">
-MRP.insert({
-'url':'http://stream.laut.fm/alexfm',
-'lang':'ru',
-'codec':'mp3',
-'volume':50,
-'autoplay':false,
-'forceHTML5':true,
-'jsevents':true,
-'buffering':0,
-'title':'AlexFM LetsRock',
-'wmode':'transparent',
-'skin':'terawhite',
-'width':255,
-'height':100
-});
-</script>
-</center>
+	<canvas class=my_visualizer width=240 height=70 data-size=64 data-revert=1 data-color="rgb"></canvas>
+	<div id="my_player" style="display:inline-block;" class="my_player" data-player="energy" data-skin="blue" data-width=200 data-autoplay=0 data-volume=50 data-streamurl="https://myradio24.org/1124"></div>
+	<style>#my_listeners {display:hidden;}</style>
+	<canvas class=my_visualizer width=240 height=70 data-size=64 data-revert=0 data-color="rgb"></canvas>
+</center><center>
 
+<center><a href="https://myradio24.com/ru/table/1124" target="_blank"><img src="images/stol_zakazov.png"></a></center>
+
+<b data-myinfo="song"></b><br>
+Следует: <span data-myinfo="nextsong"></span><br>
 <br>
-<center><b>Песня в эфире</b></center>
-<script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
-<center><div id="api_lfm_current_song1">Loading...</div>
-<script type="text/html" id="current_song_template1" charset="utf-8">
-<%= "" + this.artist.name + " - " + this.title %>
-</script> 
-<script type="text/javascript" charset="utf-8"> laut.fm.station('alexfm') 
-.current_song({container:'api_lfm_current_song1', template:'current_song_template1'}, true);
-</script></center>
-
+<b>Последние песни</b><br><br>
+<div class="my_lastsongs" data-revert=1 style="display:inline-block;">
+	<div class="my_lastsonghtml" style="display:none;">
+		<div style="text-align:left; margin:3px;">
+			<img src="https://myradio24.com/%songcover%" style="width:45px; height:45px; border-radius:4px; vertical-align:middle;"> &nbsp; 
+			%songtime% &nbsp;
+			<a href="https://www.youtube.com/results?search_query=%songencode%" target="_blank" title="Найти на YouTube">%song%</a> 
+			<span class=vm_likes data-likeid='318761878_%songid%'></span>
+		</div>
+	</div>
+</div>
+<script src="//myradio24.com/player/player.js?v3.24" data-port="1124" data-interval=15></script>
 <br>
-<center><b>Следующие исполнители</b></center>
-<script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
-<center><div id="api_lfm_next_artists">Loading..</div>
-<script type="text/html" id="next_artists_template" charset="utf-8">
-<% for (i=0; i<this.length; i++) { %>
-&#10149; <%= this[i].artist.name %><br />
-<% } %></script> 
-<script type="text/javascript" charset="utf-8">
-laut.fm.station('alexfm') 
-.next_artists ({container:'api_lfm_next_artists', template:'next_artists_template'}, true);
-</script></center>
-
-<br>
-<center><b>Последние песни</b><br><br></center>
-<script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
-<center><div id="api_lfm_last_x_songs">Loading...</div>
-<script type="text/html" id="last_x_songs_template" charset="utf-8"> 
-<% for (i=0; i < 10; i++) { %>
-<%= "<p>" + this[i].started_at.humanTimeLong() + " - " + this[i].ends_at.humanTimeLong() + " <br />" + this[i].artist.name + " - " + this[i].title + "<br /></p>" %>
-<% } %>
-</script>
-<script type="text/javascript" charset="utf-8">
-laut.fm.station('alexfm')
-.last_songs({container:'api_lfm_last_x_songs', template:'last_x_songs_template'}, true);
-</script></center>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 		<center><b><a href="player.html">AlexFM</a> | <a href="player2.html">AlexFM LR</a> | <a href="player3.html">UltraPlay</a></b></center>
 		
 		<center>
