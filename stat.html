@@ -152,25 +152,26 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 <div></div>
 <br>
 <center>
-<div class="my_info" style="visibility:hidden;">
-	<table>
-	<tr><td colspan="2">
-	</td></tr>
-	<tr><td>Вещает DJ:</td><td>%djname%</td></tr>
-	<tr><td>Качество:</td><td>%kbps% kbps</td></tr>
-	<tr><td>Слушают / Пик:</td><td title='Лимит слушателей: %limit%'><b>%listeners%</b> / %plisteners%</td></tr>
-	</table><br>
-</div>
+<div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div>
+<div data-myinfo="img" style="width:300px; height:300px; background-size:cover;"></div>
+<br>
+<b data-myinfo="song"></b><br>
+Следует: <span data-myinfo="nextsong"></span><br>
+<br>
+<b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span data-myinfo="kbps"></span> kbps
+<br>
+<div data-myinfo="htmlavatar"></div>
+<br><br>
 </center>
-<center><p><b>Основной плейлист</b></p></center>
 <center>
+<b>Последние песни</b><br><br>
 <div class="my_lastsongs" data-revert=1 style="display:inline-block;">
 	<div class="my_lastsonghtml" style="display:none;">
 		<div style="text-align:left; margin:3px;">
 			<img src="https://myradio24.com/%songcover%" style="width:45px; height:45px; border-radius:4px; vertical-align:middle;"> &nbsp; 
 			%songtime% &nbsp;
 			<a href="https://www.youtube.com/results?search_query=%songencode%" target="_blank" title="Найти на YouTube">%song%</a> 
-			<span class=vm_likes data-likeid='%songid%'></span>
+			<span class=vm_likes data-likeid='318761878_%songid%'></span>
 		</div>
 	</div>
 </div>
@@ -239,7 +240,7 @@ MRP.insert({
 <br></br>
 <center><p>YouTube канал</p></center>
 <center>
-<a href="https://goo.gl/5b69Qe" target="_blank"><img src="images/youtube.jpg"></a>
+<a href="https://www.youtube.com/@alexfmchannel" target="_blank"><img src="images/youtube.jpg"></a>
 </center>
 
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Гео статистика</font></h2>
@@ -319,7 +320,7 @@ MRP.insert({
 <a href="https://myradio24.com/2411" title="AlexFM на MyRadio24" target="_blank">MyRadio24</a>
 <a href="http://alexfmradio.myrh.ru" title="AlexFM на RadioHeart" target="_blank">RadioHeart</a>
 <a href="https://laut.fm/alexfm" title="AlexFM на Laut.FM" target="_blank">Laut.FM</a>
-<a href="https://goo.gl/5b69Qe" title="YouTube канал" target="_blank">YouTube</a>
+<a href="https://www.youtube.com/@alexfmchannel" title="YouTube канал" target="_blank">YouTube</a>
 <a href="https://rutube.ru/channel/23321674/" title="RuTube канал" target="_blank">RuTube</a>
 <a href="https://dzen.ru/alexfmradio" title="Dzen канал" target="_blank">Dzen</a>
 <a href="https://trovo.live/AlexFMChannel" title="Trovo канал" target="_blank">Trovo</a>
