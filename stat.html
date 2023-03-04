@@ -150,7 +150,7 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 					<div class="container"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Статистика эфира</font></h2>
 <div></div>
-<br>
+
 <center>
 <div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div>
 <div data-myinfo="img" style="width:300px; height:300px; background-size:cover;"></div>
@@ -176,6 +176,29 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 	</div>
 </div>
 </center>
+<br>
+<center>
+<b>Стол заказов</b> (в очереди <b class=my_table_turn>0</b>)<br><br>
+<div id=my_table_off>Сейчас заказы не принимаются.</div>
+<div id=my_table_auto style="display:none;">
+	<form action="https://myradio24.com/ru/table/2411" method="post" target="_blank"><input type=submit value="Заказать музыку к исполнению"></form>
+</div>
+<div id=my_table_on style="display:none;">
+	<form id=my_table_form action="" method=post accept-charset="UTF-8">	
+		<input type=text id=my_table_from maxlength=30 value="" placeholder="От кого*">
+		<input type=text id=my_table_for maxlength=30 value="" placeholder="Для кого">
+		<br>
+		<input type=text id=my_table_artist maxlength=50 value="" placeholder="Исполнитель*">
+		<input type=text id=my_table_song maxlength=50 value="" placeholder="Название трека*">
+		<br>
+		<textarea id=my_table_comment cols=50 rows=3 maxlength=500 placeholder="Ваш комментарий"></textarea><br>
+		* - поля обязательные для заполнения<br>
+		<input type=submit value="Заказать музыку к исполнению">
+	</form>
+</div>
+</center>
+<br></br>
+<center>Внимание!!! Если будет много заказов в течение часа от одного</br> или нескольких слушателей, стол заказов будет отключен!</center>
 
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Слушать радио онлайн</font></h2>
 
@@ -194,7 +217,7 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 <script type="text/javascript" src="files\js\mrp.js"></script>
 <script type="text/javascript">
 MRP.insert({
-'url':'http://stream.laut.fm/alexfm',
+'url':'https://stream.laut.fm/alexfm',
 'lang':'ru',
 'codec':'mp3',
 'volume':50,
@@ -217,7 +240,7 @@ MRP.insert({
 <script type="text/javascript" src="files\js\mrp.js"></script>
 <script type="text/javascript">
 MRP.insert({
-'url':'https://listen6.myradio24.com/1124',
+'url':'https://myradio24.org/1124',
 'lang':'ru',
 'codec':'mp3',
 'volume':50,
