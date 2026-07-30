@@ -1,8 +1,8 @@
 ﻿User-agent: *
 User-agent: Yandex
 User-agent: Googlebot
-Host: https://alexfmradio.tk
-Sitemap: https://alexfmradio.tk/sitemap.xml
+Host: https://alexfmradio.work.gd
+Sitemap: https://alexfmradio.work.gd/sitemap.xml
 Allow: /index.html
 Allow: /play.html
 Allow: /radio.html
